@@ -1,0 +1,21 @@
+name: Update GitLab Stats
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Backas03/gitlab-stats-card@v1
+        with:
+          gitlab_username: 4lgu3m
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add assets/gitlab-stats.svg
+          git diff --staged --quiet || git commit -m "chore: update GitLab stats card"
+          git push
