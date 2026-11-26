@@ -78,8 +78,9 @@ Suporte de TI (manutenção de PCs e notebooks, instalação de sistemas) e edi�
 ---
 
 ### 📊 Estatísticas
-[![GitLab](https://mydevmetrics.azurewebsites.net/GitLab/4lgu3m?platform=gitlab&theme=dark)](https://gitlab.com/4lgu3m)
 
-<!-- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloLiryo&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br) -->
+![GitLab Stats](./assets/gitlab-stats.svg)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MarceloLiryo&show_icons=true&theme=tokyonight&locale=pt-br)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MarceloLiryo&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=8)
